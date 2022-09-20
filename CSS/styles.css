@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-green: #38AF90;
+    --color-white: #FFF;
+    --color-light-gray: #E5E5E5;
+    --color-medium-gray: #F0F0F0;
+    --color-gray: #797979;
+    --color-red: #DD7E92;
+    --color-black: #383838;
+}
+
+.container{
+    width: 100%;
+    max-width: 990px;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.nav-container{
+    background-color: var(--color-green);
+    height: 90px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    padding: 0 10px;
+    color: var(--color-white);
+    font-size: 1.125rem;
+}
+
+.nav-profile{
+    padding: 0 10px;
+}
+
+.news-container{
+    margin: 40px 10px;
+}
+
+.news-container h2{
+    font-size: 1.5rem;
+    color: var(--color-gray);
+    text-align: center;
+}
+
+.news-card{
+    background-color: var(--color-medium-gray);
+    margin: 8px 0 20px 0;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-header h3{
+    font-size: 1rem;
+    color: var(--color-green);
+}
+
+.news-header h4{
+    font-size: 0.750rem;
+    color: var(--color-gray);
+    border-bottom: 1px solid var(--color-green);
+}
+
+.news-header p{
+    font-size: 0.625rem;
+    color: var(--color-green);
+    padding-top: 1px;
+}
+
+.news-body p{
+    color: var(--color-gray);
+    font-size: 0.625rem;
+    padding-top: 12px;
+}
+
+.news-body a{
+    color: var(--color-red);
+    font-size: 0.875rem;
+}
